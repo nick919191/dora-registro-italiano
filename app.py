@@ -6,12 +6,11 @@ import os
 import re
 from datetime import datetime
 
-# --- CONFIGURAZIONE PAGINA ---
-st.set_page_config(page_title="DORA Master Validator 2026", layout="wide", page_icon="🇪🇺")
-st.title("🇪🇺 DORA Master Validator - Controllo Multi-Sheet & Regole Custom")
+# --- CONFIGURAZIONE ---
+st.set_page_config(page_title="DORA Master Audit 2026", layout="wide", page_icon="🇪🇺")
+st.title("🇪🇺 DORA Master Validator - Report Unificato")
 
-# --- 1. METADATI TECNICI COMPLETI (Estratti dal tuo file) ---
-# Questa è la mappa esatta che il tuo file Excel si aspetta.
+# --- 1. METADATI TECNICI (DPM 4.0) ---
 DORA_METADATA = {
     "b_01.01": {"desc": "Identificazione Entità", "cols": ['c0010', 'c0020', 'c0030', 'c0040', 'c0050', 'c0060']},
     "b_01.02": {"desc": "Controparti", "cols": ['c0010', 'c0020', 'c0030', 'c0040', 'c0050', 'c0060', 'c0070', 'c0080', 'c0090', 'c0100', 'c0110']},
@@ -21,7 +20,7 @@ DORA_METADATA = {
     "b_02.03": {"desc": "Fornitori Alternativi", "cols": ['c0010', 'c0020', 'c0030']},
     "b_03.01": {"desc": "Funzioni ICT", "cols": ['c0010', 'c0020', 'c0030']},
     "b_03.02": {"desc": "Mappatura Funzioni", "cols": ['c0010', 'c0020', 'c0030']},
-    "b_03.03": {"desc": "Link Funzioni", "cols": ['c0010', 'c0020', 'c0031']}, # Nota: c0031 confermata dal tuo test
+    "b_03.03": {"desc": "Link Funzioni", "cols": ['c0010', 'c0020', 'c0031']},
     "b_04.01": {"desc": "Valutazioni Rischio", "cols": ['c0010', 'c0020', 'c0030', 'c0040']},
     "b_05.01": {"desc": "Contratti ICT", "cols": ['c0010', 'c0020', 'c0030', 'c0040', 'c0050', 'c0060', 'c0070', 'c0080', 'c0090', 'c0100', 'c0110', 'c0120']},
     "b_05.02": {"desc": "Subappaltatori", "cols": ['c0010', 'c0020', 'c0030', 'c0040', 'c0050', 'c0060', 'c0070']},
@@ -30,147 +29,152 @@ DORA_METADATA = {
     "b_99.01": {"desc": "Commenti", "cols": ['c0010', 'c0020', 'c0030', 'c0040', 'c0050', 'c0060', 'c0070', 'c0080', 'c0090', 'c0100', 'c0110', 'c0120', 'c0130', 'c0140', 'c0150', 'c0160', 'c0170', 'c0180', 'c0190']}
 }
 
-# --- 2. GESTIONE REGOLE (Excel rules.xlsx) ---
+# --- 2. GESTIONE REGOLE ---
 @st.cache_data
-def load_validation_rules(uploaded_file=None):
+def load_rules(file=None):
     rules = pd.DataFrame()
-    source = "Nessuna"
-    if uploaded_file:
-        try:
-            xls = pd.read_excel(uploaded_file, sheet_name=None, engine='openpyxl')
-            rules = pd.concat([df.assign(Origine=name) for name, df in xls.items()], ignore_index=True)
-            source = "Manuale"
+    if file: 
+        try: rules = pd.concat([df.assign(Origine=n) for n,df in pd.read_excel(file, sheet_name=None).items()])
         except: pass
     elif os.path.exists("rules.xlsx"):
-        try:
-            xls = pd.read_excel("rules.xlsx", sheet_name=None, engine='openpyxl')
-            rules = pd.concat([df.assign(Origine=name) for name, df in xls.items()], ignore_index=True)
-            source = "GitHub Auto"
+        try: rules = pd.concat([df.assign(Origine=n) for n,df in pd.read_excel("rules.xlsx", sheet_name=None).items()])
         except: pass
-    return rules, source
+    return rules
 
-# Sidebar
 st.sidebar.header("🔧 Configurazione")
-manual_file = st.sidebar.file_uploader("Aggiorna Regole (rules.xlsx)", type=['xlsx'])
-rules_db, rules_source = load_validation_rules(manual_file)
-if not rules_db.empty:
-    st.sidebar.success(f"✅ Regole Attive ({rules_source}): {len(rules_db)}")
+manual_file = st.sidebar.file_uploader("Regole Custom (rules.xlsx)", type=['xlsx'])
+rules_db = load_rules(manual_file)
+if not rules_db.empty: st.sidebar.success(f"✅ Regole Attive: {len(rules_db)}")
 
-# --- 3. INTELLIGENZA DI AUDIT ---
-def detect_module_code(text):
-    """Cerca b_XX.XX nel testo (nome file o nome foglio)"""
+# --- 3. AUDIT INTELLIGENTE (Smart Date Logic) ---
+def detect_module(text):
     match = re.search(r"b_\d{2}\.\d{2}", text, re.IGNORECASE)
-    if match: return match.group(0).lower()
-    return None
+    return match.group(0).lower() if match else None
 
 def validate_dataframe(df, module_code):
     logs = []
     
-    # A. VALIDAZIONE STRUTTURALE (FATAL)
-    expected_cols = DORA_METADATA.get(module_code, {}).get('cols', [])
-    missing_cols = [c for c in expected_cols if c not in df.columns]
-    
-    if missing_cols:
-        logs.append({"Livello": "FATAL", "Tipo": "Struttura", "Messaggio": f"Mancano colonne: {missing_cols}", "Riga": "Header", "Colonna": "-"})
-        return logs # Stop se mancano colonne
+    # Check Header
+    exp = DORA_METADATA.get(module_code, {}).get('cols', [])
+    miss = [c for c in exp if c not in df.columns]
+    if miss:
+        return [{"Livello": "FATAL", "Tipo": "Struttura", "Messaggio": f"Mancano: {miss}", "Riga": "Header", "Colonna": "-", "Modulo": module_code}]
 
-    # B. VALIDAZIONE RIGHE
+    # Check Righe
     for idx, row in df.iterrows():
         riga = idx + 2
         for col in df.columns:
             val = str(row[col]).strip() if pd.notna(row[col]) else ""
             
-            # 1. LEI Check (Generico su colonne 'LEI' o c0020)
-            if (col == "c0020" or "LEI" in col.upper()) and val:
-                if len(val) != 20:
-                    logs.append({"Livello": "ERROR", "Tipo": "LEI", "Messaggio": f"Lunghezza errata ({len(val)})", "Riga": riga, "Colonna": col})
-                if not val.isalnum():
-                    logs.append({"Livello": "ERROR", "Tipo": "LEI", "Messaggio": "Caratteri speciali non ammessi", "Riga": riga, "Colonna": col})
+            # LEI Check (Ignora placeholder EBA)
+            if (col == "c0020" or "LEI" in col.upper()) and val and "eba_" not in val.lower() and "not applicable" not in val.lower():
+                if len(val) != 20 or not val.isalnum():
+                    logs.append({"Livello": "ERROR", "Tipo": "LEI", "Messaggio": f"LEI invalido ({val})", "Riga": riga, "Colonna": col, "Modulo": module_code})
 
-            # 2. Date Check (Generico su c0030/40)
-            if ("DATE" in col.upper() or col in ["c0030", "c0040"]) and val:
+            # Date Check (Ignora 9999 e passate se non scadenza)
+            if ("DATE" in col.upper() or col in ["c0030", "c0040", "c0060", "c0070"]) and val and "9999" not in val:
                 try:
                     dt = pd.to_datetime(val, errors='coerce')
                     if pd.isna(dt):
-                         logs.append({"Livello": "ERROR", "Tipo": "Data", "Messaggio": "Formato non valido (usa YYYY-MM-DD)", "Riga": riga, "Colonna": col})
+                        logs.append({"Livello": "ERROR", "Tipo": "Data", "Messaggio": "Formato errato", "Riga": riga, "Colonna": col, "Modulo": module_code})
+                    elif col == "c0040" and dt < datetime.now(): # Solo Scadenza (c0040) non deve essere passata
+                        logs.append({"Livello": "WARNING", "Tipo": "Scadenza", "Messaggio": "Scaduto", "Riga": riga, "Colonna": col, "Modulo": module_code})
                 except: pass
 
-    # C. REGOLE CUSTOM (rules.xlsx)
+    # Regole Custom
     if not rules_db.empty:
-        code_key = module_code.replace("b_", "") # 05.01
-        # Cerca regole applicabili
-        match = rules_db[rules_db.astype(str).apply(lambda x: x.str.contains(code_key, case=False)).any(axis=1)]
+        key = module_code.replace("b_", "")
+        match = rules_db[rules_db.astype(str).apply(lambda x: x.str.contains(key, case=False)).any(axis=1)]
         if not match.empty:
-            logs.append({"Livello": "INFO", "Tipo": "Compliance", "Messaggio": f"Trovate {len(match)} regole normative extra.", "Riga": "-", "Colonna": "-"})
+            logs.append({"Livello": "INFO", "Tipo": "Compliance", "Messaggio": f"Applicate {len(match)} regole extra", "Riga": "-", "Colonna": "-", "Modulo": module_code})
 
     return logs
 
 # --- INTERFACCIA ---
-menu = st.sidebar.radio("Menu", ["1. Audit Universale", "2. Editor Dati", "3. Export ZIP"])
+menu = st.sidebar.radio("Menu", ["1. Audit Globale (Report)", "2. Editor", "3. Export ZIP"])
 
-if menu == "1. Audit Universale":
-    st.header("🕵️‍♂️ DORA Audit - Multi-Sheet Engine")
-    st.info("Carica il file Excel completo (tutti i fogli) o i CSV singoli.")
+if menu == "1. Audit Globale (Report)":
+    st.header("📊 Audit Globale & Reportistica")
+    st.info("Carica il file Excel completo. Genererò un unico report con tutti gli errori.")
     
-    uploaded_files = st.file_uploader("Trascina file qui", accept_multiple_files=True)
+    upl = st.file_uploader("Carica Excel o CSV", accept_multiple_files=True)
     
-    if uploaded_files:
+    if upl:
+        all_logs = [] # Qui raccogliamo TUTTI gli errori di TUTTI i fogli
         st.markdown("---")
         
-        for file in uploaded_files:
-            # CASO A: File EXCEL (Multi-foglio)
+        for file in upl:
             if file.name.endswith('.xlsx'):
                 try:
-                    xls_dict = pd.read_excel(file, sheet_name=None, dtype=str)
-                    st.subheader(f"📂 Analisi File: {file.name}")
+                    xls = pd.read_excel(file, sheet_name=None, dtype=str)
+                    st.write(f"📂 **Analisi {file.name}** ({len(xls)} fogli)")
                     
-                    for sheet_name, df in xls_dict.items():
-                        detected_mod = detect_module_code(sheet_name)
-                        
-                        if detected_mod and detected_mod in DORA_METADATA:
-                            desc = DORA_METADATA[detected_mod]['desc']
-                            logs = validate_dataframe(df, detected_mod)
+                    for sheet, df in xls.items():
+                        mod = detect_module(sheet)
+                        if mod and mod in DORA_METADATA:
+                            res = validate_dataframe(df, mod)
+                            all_logs.extend(res) # Aggiungi alla lista master
                             
-                            with st.expander(f"📑 {sheet_name} ({desc}) - {len(logs)} Segnalazioni", expanded=(len(logs)>0)):
-                                if logs:
-                                    st.dataframe(pd.DataFrame(logs), use_container_width=True)
-                                else:
-                                    st.success("✅ Validazione OK")
-                        else:
-                            # Ignoriamo silenziosamente i fogli che non sono DORA (es. fogli istruzioni)
-                            pass
-                            
-                except Exception as e:
-                    st.error(f"Errore lettura Excel: {e}")
-
-            # CASO B: File CSV
+                            # Visualizza anteprima veloce (Pallino colorato)
+                            status = "🔴" if any(l['Livello'] in ['FATAL', 'ERROR'] for l in res) else ("🟡" if res else "🟢")
+                            with st.expander(f"{status} {sheet}"):
+                                if res: st.dataframe(pd.DataFrame(res))
+                                else: st.success("Nessun errore")
+                except Exception as e: st.error(str(e))
+                
             elif file.name.endswith('.csv'):
-                detected_mod = detect_module_code(file.name)
-                if detected_mod:
+                mod = detect_module(file.name)
+                if mod:
                     df = pd.read_csv(file, sep=',', dtype=str, on_bad_lines='skip')
-                    logs = validate_dataframe(df, detected_mod)
-                    
-                    with st.expander(f"📄 CSV: {file.name} - {len(logs)} Segnalazioni", expanded=True):
-                        if logs:
-                            st.dataframe(pd.DataFrame(logs), use_container_width=True)
-                        else:
-                            st.success("✅ Validazione OK")
+                    res = validate_dataframe(df, mod)
+                    all_logs.extend(res)
+                    status = "🔴" if any(l['Livello'] in ['FATAL', 'ERROR'] for l in res) else ("🟡" if res else "🟢")
+                    with st.expander(f"{status} {file.name}"):
+                        if res: st.dataframe(pd.DataFrame(res))
+                        else: st.success("Nessun errore")
 
-elif menu == "2. Editor Dati":
-    st.header("📝 Inserimento Dati")
+        # --- SEZIONE REPORT FINALE ---
+        st.markdown("---")
+        st.subheader("📥 Download Report Finale")
+        
+        if all_logs:
+            report_df = pd.DataFrame(all_logs)
+            
+            # Statistiche
+            c1, c2, c3 = st.columns(3)
+            c1.metric("Totale Errori", len(report_df[report_df['Livello']=='ERROR']), delta_color="inverse")
+            c2.metric("Warnings", len(report_df[report_df['Livello']=='WARNING']), delta_color="normal")
+            c3.metric("Fogli Analizzati", len(report_df['Modulo'].unique()))
+            
+            # Bottone Download
+            csv = report_df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="📥 SCARICA REPORT COMPLETO (.csv)",
+                data=csv,
+                file_name="DORA_Audit_Report_Full.csv",
+                mime="text/csv",
+                type="primary"
+            )
+            
+            st.dataframe(report_df, use_container_width=True)
+        else:
+            st.balloons()
+            st.success("🎉 CONGRATULAZIONI! Nessun errore rilevato in nessun foglio.")
+
+elif menu == "2. Editor":
+    st.header("📝 Editor")
     mod = st.selectbox("Modulo", list(DORA_METADATA.keys()))
     if 'data' not in st.session_state: st.session_state['data'] = {}
     if mod not in st.session_state['data']: st.session_state['data'][mod] = pd.DataFrame(columns=DORA_METADATA[mod]['cols'])
-    
-    edited = st.data_editor(st.session_state['data'][mod], num_rows="dynamic", use_container_width=True)
+    edited = st.data_editor(st.session_state['data'][mod], num_rows="dynamic")
     st.session_state['data'][mod] = edited
 
 elif menu == "3. Export ZIP":
-    st.header("📦 Genera ZIP Invio")
+    st.header("📦 Export ZIP")
     if st.button("Scarica ZIP"):
         buf = io.BytesIO()
         with zipfile.ZipFile(buf, "w") as z:
             for k in DORA_METADATA.keys():
                 d = st.session_state['data'][k] if ('data' in st.session_state and k in st.session_state['data']) else pd.DataFrame(columns=DORA_METADATA[k]['cols'])
                 z.writestr(f"{k}.csv", d.to_csv(index=False).encode('utf-8'))
-        st.download_button("Scarica ZIP", buf.getvalue(), "DORA_Submission.zip", "application/zip")
+        st.download_button("Scarica", buf.getvalue(), "DORA.zip", "application/zip")
