@@ -26,7 +26,8 @@ def load_embedded_rules():
             
             all_dfs = []
             for sheet_name, df in xls.items():
-                df['Origine_Regola'] = sheet_name # Tracciamo se è una regola vecchia o nuova
+                # Aggiungiamo una colonna per tracciare l'origine (es. 'Vecchie', 'Nuove')
+                df['Origine_Regola'] = sheet_name 
                 all_dfs.append(df)
             
             if all_dfs:
@@ -35,8 +36,8 @@ def load_embedded_rules():
         except Exception as e:
             st.error(f"Errore tecnico nella lettura di {filename}: {e}")
     else:
-        # Se non trova il file, non crasha ma avvisa
-        st.warning(f"⚠️ Attenzione: Non trovo il file '{filename}' nel repository. Le regole automatiche sono disattivate.")
+        # Se non trova il file, avvisa ma non blocca l'app
+        st.warning(f"⚠️ Attenzione: Non trovo il file '{filename}' nel repository. Assicurati di averlo caricato su GitHub.")
         
     return rules_df
 
@@ -66,13 +67,13 @@ def run_audit(df, sheet_code):
     if df.empty:
         return ["⚠️ Il foglio è vuoto."], []
 
-    # A. CONTROLLI BASE (Codice)
+    # A. CONTROLLI BASE (Codice Python)
     for col in df.columns:
         # Check LEI
         if "LEI" in col.upper():
             invalid = df[df[col].astype(str).str.len() != 20]
             if not invalid.empty:
-                errors.append(f"🔴 **Errore LEI ({col}):** {len(invalid)} codici invalidi.")
+                errors.append(f"🔴 **Errore LEI ({col}):** {len(invalid)} codici invalidi (richiesti 20 caratteri).")
 
         # Check DATE SCADUTE
         if "SCADENZA" in col.upper() or "END" in col.upper():
@@ -86,14 +87,14 @@ def run_audit(df, sheet_code):
 
     # B. CONTROLLI AVANZATI (Dal file Excel rules.xlsx)
     if not validation_db.empty:
-        # Cerchiamo regole che citano questo modulo (es. "05.01")
-        # Adatta questo filtro in base a come sono scritti i codici nel tuo Excel
+        # Cerchiamo regole che citano questo modulo (es. filtra per "05.01" se presente nel testo)
+        # Nota: Questo filtro dipende da come sono scritte le regole nel tuo Excel.
+        # Qui cerchiamo se il codice del foglio (es "05.01") appare in qualsiasi colonna della riga
         relevant = validation_db[validation_db.astype(str).apply(lambda x: x.str.contains(sheet_code.replace("b_", ""), case=False)).any(axis=1)]
         
         if not relevant.empty:
-            warnings.append(f"ℹ️ **Audit Normativo:** Applicate {len(relevant)} regole ufficiali DPM per {sheet_code}.")
-            # Qui si visualizzano le regole trovate nel file
-            # (In una versione futura possiamo trasformare queste regole testo in codice Python)
+            warnings.append(f"ℹ️ **Audit Normativo:** Trovate {len(relevant)} regole ufficiali DPM applicabili a {sheet_code}.")
+            # (Opzionale: qui potremmo mostrare i dettagli delle regole)
 
     return errors, warnings
 
@@ -122,15 +123,15 @@ if menu == "1. Dashboard Audit":
             if errs: 
                 st.error("❌ ERRORI CRITICI")
                 for e in errs: st.write(e)
-            else: st.success("✅ Nessun errore tecnico")
+            else: st.success("✅ Nessun errore tecnico critico")
         
         with c2:
             if warns:
                 st.warning("⚠️ SEGNALAZIONI")
                 for w in warns: st.write(w)
-            else: st.info("Nessuna segnalazione")
+            else: st.info("Nessuna segnalazione normativa")
 
-        # Mostra le regole applicabili dal file Excel
+        # Mostra le regole applicabili dal file Excel in un box espandibile
         if not validation_db.empty:
             with st.expander(f"📜 Regole Ufficiali DPM per {sheet_type}"):
                 # Filtro semplice per mostrare le regole pertinenti
