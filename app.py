@@ -11,7 +11,7 @@ def load_dictionary():
     """Carica il dizionario dal CSV e crea una mappa Inglese -> Italiano"""
     try:
         # Legge il file CSV che hai scaricato da Colab
-        df = pd.read_csv('dizionario_dora_da_tradurre.csv', encoding='latin1')
+        df = pd.read_csv('dizionario_dora_da_tradurre.csv', encoding='latin1', sep=None, engine='python')
         
         # Pulisce i dati: se manca la traduzione, usa l'inglese
         df['Traduzione_ITA'] = df['Traduzione_ITA'].fillna('')
@@ -94,3 +94,4 @@ with tab2:
 st.markdown("---")
 
 st.caption("Software basato su EBA DPM 2.0 Refit - Generato via AI")
+
