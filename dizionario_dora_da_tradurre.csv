@@ -1,0 +1,500 @@
+ItemID;Name;Traduzione_ITA
+1126;Amount contractually required to pay at maturity;Importo contrattuale obbligato da pagare alla scadenza
+1127;Amount of Assets involved in the services provided by the institution;Ammontare i beni coinvolti nei servizi forniti dall'istituzione
+1187;Changes in Defined benefit obligations other than Current and past service cost, Interest cost, Contributions paid by plan participants, Actuarial gains and losses, Foreign currency translation, Benefits paid, Business combinations or divestiture (flow);Cambiamenti negli obblighi a benefici definiti diversi dal costo attuale e del servizio passato, costo degli interessi, contributi pagati dai partecipanti al piano, guadagni e perdite attuariali, traduzione in valuta estera, benefici pagati, combinazioni o dismissioni di imprese (flusso)
+1237;Current service cost (flow);Costo attuale del servizio (flusso)
+1309;Jurisdiction of incorporation;Giurisdizione di incorporazione
+1365;Past service cost (flow);Costo di servizio passato (flusso)
+1864;Assets involved in the services provided by the institution;Beni coinvolti nei servizi forniti dall'istituzione
+1936;Debt securities issued. Hybrid contracts;Titoli di debito emessi. Contratti ibridi
+1937;Debt securities issued. Other than Certificates of deposits, Asset-backed securities, Covered bonds, Hybrid contracts;Titoli di debito emessi. Oltre ai Certificati di deposito, titoli garantiti da attive, obbligazioni coperte, contratti ibridi
+1938;Debt securities issued. Other than Certificates of deposits, Asset-backed securities, Covered bonds, Hybrid contracts. Convertible compound financial instruments;Titoli di debito emessi. Oltre ai certificati di deposito, titoli garantiti da attive, obbligazioni coperte e contratti ibridi. Strumenti finanziari composti convertibili
+1939;Debt securities issued. Other than Certificates of deposits, Asset-backed securities, Covered bonds, Hybrid contracts. Non-convertible;Titoli di debito emessi. Oltre ai certificati di deposito, titoli garantiti da attive, obbligazioni coperte e contratti ibridi. Non convertibile
+1977;Defined benefit pension fund assets which the institution has an restricted ability to use, Deferred tax liabilities associated to defined benefit pension fund assets;Attività di fondi pensione a prestazione definita che l'istituzione ha una capacità limitata di utilizzare, passività fiscali differite associate agli attivi dei fondi pensione a prestazione definita
+1978;Defined benefit pension fund assets which the institution has an unrestricted ability to use;Beni di fondi pensione a prestazione definita che l'istituzione ha una capacità illimitata di utilizzare
+1995;Derivatives & long settlement transactions excluding Contractual Cross Product Netting;Derivati e transazioni di regolamento a lunga durata escludendo il netto contrattuale cross-product
+1996;Derivatives excluding Contractual Cross Product Netting - Centrally cleared through a QCCP;Derivati esclusi il Contract Cross Product Netting - Compensati centralmente tramite un QCCP
+2268;OTC-Derivatives excluding Contractual Cross Product Netting;Derivati OTC esclusi il netto contrattuale incrociato
+2269;OTC-Securities financing transactions excluding Contractual Cross Product Netting;Transazioni OTC-finanziamento dei titoli, escluso il netto contrattuale incrociato
+2373;Securities financing transactions excluding Contractual Cross Product Netting - Centrally cleared through a QCCP;Transazioni di finanziamento dei titoli escluse il Contractual Cross Product Netting - Compensate centralmente tramite un QCCP
+2377;Securities financing transactions and Derivatives & long settlement transactions under Contractual Cross Product Netting;Transazioni di finanziamento dei titoli e transazioni di derivati e lunghe liquidazioni sotto Contract Cross Product Netting
+2378;Securities financing transactions excluding Contractual Cross Product Netting;Transazioni di finanziamento dei titoli escluse il netto contrattuale incrociato al prodotto
+2463;I - Accommodation and food service activities;I - Attività di alloggio e ristorazione
+2467;N - Administrative and support service activities;N - Attività amministrative e di supporto
+2471;Q - Human health services and social work activities;D: Servizi sanitari umani e attività di lavoro sociale
+2473;S - Other services;S - Altri servizi
+2591;Financial assets designated at fair value through profit or loss. Hybrid contracts, Financial liabilities designated at fair value through profit or loss. Hybrid contracts;Attività finanziarie designate al fair value tramite profitto o perdita. Contratti ibridi, passività finanziarie designate al fair value tramite profitto o perdita. Contratti ibridi
+2737;Activities other than Securities, Clearing and settlement, Asset management, Custody, Central administration services for collective investments, Fiduciary transactions, Payment services, Customer resources distributed but not managed, Structured Finance, Loan servicing activities;Attività diverse da titoli, compensazione e liquidazione, gestione patrimoniale, custodia, servizi di amministrazione centrale per investimenti collettivi, transazioni fiduciarie, servizi di pagamento, risorse clienti distribuite ma non gestite, finanza strutturata, attività di gestione dei prestiti
+2739;Agency services;Servizi dell'agenzia
+2745;Central administrative services for collective investment;Servizi amministrativi centrali per l'investimento collettivo
+2767;Payment services;Servizi di pagamento
+1012404646;Cash clearing and central credit institution service;Compensazione di contante e servizio di istituzioni centrali di credito
+1012404647;Clearing, assets custody, cash management and comparable services;Compensazione, custodia dei beni, gestione della liquidità e servizi comparabili
+1012404650;Type of financial service provided;Tipo di servizio finanziario fornito
+1012405640;Defined benefit pension fund assets, Defined benefit pension fund assets which the institution has an restricted ability to use, Deferred tax liabilities associated to defined benefit pension fund assets;Attività di fondi pensione a prestazione definita, Attività di fondi pensione a prestazione definita che l'istituzione ha una capacità limitata di utilizzare, Passività fiscali differite associate agli attivi dei fondi pensione a prestazione definita
+1012406744;Eligible protection provider;Fornitore di protezione idoneo
+3145;Clearing, custody or cash management services;Servizi di compensazione, custodia o gestione della cassa
+3199;Assets under reinsurance and insurance contracts;Beni previsti da contratti di riassicurazione e assicurazione
+3200;Liabilities under reinsurance and insurance contracts;Passività ai sensi di riassicurazione e contratti assicurativi
+3205;Financial liabilities designated at fair value through profit or loss. Hybrid contracts;Passività finanziarie designate al fair value tramite profitto o perdita. Contratti ibridi
+3208;Financial assets designated at fair value through profit or loss. Hybrid contracts;Attività finanziarie designate al fair value tramite profitto o perdita. Contratti ibridi
+3409;Application of stricter requirements by institutions;Applicazione di requisiti più severi da parte delle istituzioni
+3652;Defined benefit pension fund assets which the institution has an restricted ability to use, Deferred tax liabilities associated to defined benefit pension fund assets - positive amendments due to IAS19;Attività di fondi pensione a prestazione definita che l'istituzione ha una capacità limitata di utilizzare, passività fiscali differite associate agli asset dei fondi pensione a prestazione definita - modifiche positive dovute all'IAS19
+3653;Defined benefit pension fund assets which the institution has an restricted ability to use, Deferred tax liabilities associated to defined benefit pension fund assets - negative amendments due to IAS19;Attività di fondi pensione a prestazione definita che l'istituzione ha una capacità limitata di utilizzare, passività fiscali differite associate agli asset dei fondi pensione a prestazione definita - modifiche negative dovute a IAS19
+3714;Jurisdictions with insufficient HQLA. Use of derogation A;Giurisdizioni con HQLA insufficiente. Uso della deroga A
+3723;Jurisdictions with insufficient HQLA. Use of derogation B;Giurisdizioni con HQLA insufficiente. Uso della deroga B
+3736;Established relationship other than clearing, custody or cash management services;Relazione consolidata diversa dai servizi di compensazione, affidamento o gestione della liquidità
+3737;Established relationship other than clearing, custody or cash management services. Correspondent banking or prime brokerage;Relazione consolidata diversa dai servizi di compensazione, affidamento o gestione della cassa. Corrispondente bancario o prime brokerage
+3818;Cash clearing and central credit institution services;Compensazione di contante e servizi di istituzioni centrali di credito
+3976;Defined benefit pension fund assets, Defined benefit pension fund assets which the institution has an restricted ability to use, Deferred tax liabilities associated to defined benefit pension fund assets;Attività di fondi pensione a prestazione definita, Attività di fondi pensione a prestazione definita che l'istituzione ha una capacità limitata di utilizzare, Passività fiscali differite associate agli attivi dei fondi pensione a prestazione definita
+4100;Identifier of the securitisation;Identificatore della cartolarizzazione
+4109;B9 - Mining support service activities;B9 - Attività di supporto minerario
+4138;E39 - Remediation activities and other waste management services;E39 - Attività di bonifica e altri servizi di gestione dei rifiuti
+4151;I56 - Food and beverage service activities;I56 - Attività di servizio ristorazione e bevande
+4153;J59 - Motion picture, video and television programme production, sound recording and music publishing activities;J59 - Produzione di programmi cinematografici, video e televisivi, registrazione audio e attività di pubblicazione musicale
+4157;J63 - Information service activities;J63 - Attività di servizio informativo
+4158;K64 - Financial service activities, except insurance and pension funding;K64 - Attività di servizi finanziari, eccetto assicurazioni e finanziamenti pensionistici
+4160;K66 - Activities auxiliary to financial services and insurance activities;K66 - Attività ausiliarie ai servizi finanziari e alle attività assicurative
+4171;N79 - Travel agency, tour operator and other reservation service and related activities;N79 - Agenzia di viaggi, tour operator e altri servizi di prenotazione e attività correlate
+4173;N81 - Services to buildings and landscape activities;N81 - Servizi agli edifici e attività paesaggistiche
+4186;S96 - Other personal service activities;S96 - Altre attività di servizio personale
+4187;T - Activities of households as employers;T - Attività delle famiglie come datori di lavoro
+4189;T98 - Undifferentiated goods- and services-producing activities of private households for own use;T98 - Attività indifferenziate di produzione di beni e servizi di famiglie private per uso personale
+4289;A1 - Crop and animal production, hunting and related service activities;A1 - Produzione di colture e animali, caccia e attività di servizio correlate
+4395;Debt securities issued. Other than Hybrid contracts;Titoli di debito emessi. A parte i contratti ibridi
+4708;Other products and services;Altri prodotti e servizi
+4732;Contract allows the credit institution to withdraw and request payment within 30 days;Il contratto consente all'istituto di credito di prelevare e richiedere il pagamento entro 30 giorni
+4734;Maintained for clearing, custody, cash management or other comparable services;Mantenuto per compensazione, custodia, gestione della cassa o altri servizi comparabili
+4738;Maintained to obtain cash clearing and central credit institution services within a network;Mantenuto per ottenere servizi di compensazione di liquidità e istituti di credito centrale all'interno di una rete
+4779;Transfer restrictions or denomination in non-convertible currencies;Restrizioni di trasferimento o denominazione in valute non convertibili
+5060;Hybrid contract;Contratto ibrido
+5118;Other than certificates of deposits, asset-backed securities, covered bonds, hybrid contracts;Oltre ai certificati di deposito, titoli garantiti da attive, obbligazioni coperte, contratti ibridi
+5119;Other than certificates of deposits, asset-backed securities, covered bonds, hybrid contracts. Convertible compound financial instruments;Oltre a certificati di deposito, titoli garantiti da attive, obbligazioni coperte, contratti ibridi. Strumenti finanziari composti convertibili
+5120;Other than certificates of deposits, asset-backed securities, covered bonds, hybrid contracts. Non-convertible;Oltre a certificati di deposito, titoli garantiti da attive, obbligazioni coperte, contratti ibridi. Non convertibile
+5124;Hybrid contracts;Contratti ibridi
+6005;Accounting portfolios for financial assets at fair value or strict LOCOM not subject to impairment;Portafogli contabili per attività finanziarie al fair value o LOCOM rigoroso non soggetti a impairment
+6262;Ancillary services undertaking;Attività di servizi accessori
+6275;Contractual netting agreements, mark-to-market adjustments;Accordi contrattuali di netting, aggiustamenti mark-to-market
+6276;Contractual netting agreements, mark-to-market adjustments, collateral offset;Accordi contrattuali di netting, aggiustamenti mark-to-market, compensazione collaterale
+6277;Contractual netting agreements, mark-to-market adjustments, collateral offset, estimated close-out amounts;Accordi contrattuali di neting, aggiustamenti mark-to-market, compensazione del collaterale, importi stimati del chiudimento
+6292;Liabilities associated with daily operational functioning;Responsabilità associate al funzionamento operativo quotidiano
+6320;Legal coverage (excluding deposits guaranteed by a DGS on contractual basis);Copertura legale (escludendo i depositi garantiti da una DGS su base contrattuale)
+6324;Investor, creditor, guarantee provider;Investitore, creditore, fornitore di garanzie
+6331;(Additional) contractual coverage;(Copertura contrattuale aggiuntiva)
+6333;Comments required. Economic function;Commenti necessari. Funzione economica
+6334;Represents a critical function;Rappresenta una funzione critica
+6336;Monetary amount (criticality assessment of economic functions);Ammontare monetario (valutazione della criticità delle funzioni economiche)
+6337;Number (criticality assessment of economic functions);Numero (valutazione della criticità delle funzioni economiche)
+6347;Cash services;Servizi di cassa
+6348;Payment services, cash services, clearing and settlement, custody;Servizi di pagamento, servizi in contanti, compensazione e saldo, custodia
+6349;Securities settlement services;Servizi di regolamento dei titoli
+6350;CCP clearing services;Servizi di compensazione CCP
+6351;Specified service / activity / function (1);Servizio / attività / funzione specificati (1)
+6352;Specified service / activity / function (2);Servizio / attività / funzione specificati (2)
+6353;Specified service / activity / function (3);Servizio / attività / funzione specificati (3)
+6370;Provider of critical service;Fornitore di servizi critici
+6373;Estimated time for access to contracts;Tempo stimato per l'accesso ai contratti
+6374;Is resolution-proof contract;Il contratto a prova di risoluzione è
+6377;Comments required. FMI services;Commenti necessari. Servizi FMI
+6434;Contract identifier;Identificatore contrattuale
+6435;Country the law of which governs the contract / master agreement;Paese la cui legge regola il contratto / accordo quadro
+6436;Contractual recognition of bail-in powers;Riconoscimento contrattuale dei poteri di bail-in
+6439;Currency in which the transaction / contract is denominated;Valuta in cui la transazione/contratto è denominata
+6443;Type of contractual terms;Tipo di termini contrattuali
+6454;Identifier of the security;Identificatore del titolo
+6484;Identifier (Critical services);Identificatore (Servizi critici)
+6485;Recipient of critical service;Destinatario di servizi critici
+6490;Location of critical function;Posizione della funzione critica
+6491;Critical function ID;ID funzione critica
+6521;BE - Garantiefonds voor financiÃ«le diensten / Fonds de garantie pour les services financiers;BE - Fonds de garantie voor financiÃ«le diensten / Fonds de garantie pour les services financiers
+6555;UK - Financial Services Compensation Scheme;Regno Unito - Schema di Compensazione dei Servizi Finanziari
+6577;3.1 - Payment, Cash, Settlement, Clearing, Custody: Payment services to MFIs;3.1 - Pagamento, Contanti, Liquidazione, Compensazione, Custodia: Servizi di pagamento per le MFI
+6578;3.2 - Payment, Cash, Settlement, Clearing, Custody: Payment services to non-MFIs;3.2 - Pagamento, Contanti, Liquidazione, Compensazione, Custodia: Servizi di pagamento per non-MFI
+6579;3.3 - Payment, Cash, Settlement, Clearing, Custody: Cash services;3.3 - Pagamento, contanti, risarcenza, compensazione, custodia: servizi in contanti
+6580;3.4 - Payment, Cash, Settlement, Clearing, Custody: Securities settlement services;3.4 - Pagamento, Contanti, Liquidazione, Compensazione, Custodia: Servizi di regolamento titoli
+6581;3.5 - Payment, Cash, Settlement, Clearing, Custody: CCP clearing services;3.5 - Pagamento, Contanti, Compensazione, Custodia: Servizi di compensazione CCP
+6582;3.6 - Payment, Cash, Settlement, Clearing, Custody: Custody services;3.6 - Pagamento, Contanti, Risarcimento, Compensazione, Custodia: Servizi di custodia
+6583;3.7 - Payment, Cash, Settlement, Clearing, Custody: Other services / activities / functions (1);3.7 - Pagamento, Contanti, Liquidazione, Compensazione, Custodia: Altri servizi / attività / funzioni (1)
+6584;3.8 - Payment, Cash, Settlement, Clearing, Custody: Other services / activities / functions (2);3.8 - Pagamento, Contanti, Compensazione, Compensazione, Custodia: Altri servizi/attività/funzioni (2)
+6585;3.9 - Payment, Cash, Settlement, Clearing, Custody: Other services / activities / functions (3);3.9 - Pagamento, Contanti, Compensazione, Compensazione, Custodia: Altri servizi/attività/funzioni (3)
+6590;4.5 - Capital Markets: Other services / activities / functions (1);4.5 - Mercati dei capitali: Altri servizi / attività / funzioni (1)
+6591;4.6 - Capital Markets: Other services / activities / functions (2);4.6 - Mercati dei capitali: Altri servizi / attività / funzioni (2)
+6592;4.7 - Capital Markets: Other services / activities / functions (3);4.7 - Mercati dei capitali: Altri servizi / attività / funzioni (3)
+6601;1.1 - Staff administration, including administration of contracts and remuneration;1.1 - Amministrazione del personale, inclusa l'amministrazione dei contratti e delle retribuzioni
+6606;2.3 - Other IT infrastructure, workstations, telecommunications, servers, data centres and related services;2.3 - Altre infrastrutture IT, workstation, telecomunicazioni, server, data center e servizi correlati
+6608;2.5 - Access to external providers, in particular data and infrastructure providers;2.5 - Accesso a fornitori esterni, in particolare fornitori di dati e infrastrutture
+6620;5 - Legal services and compliance functions;5 - Servizi legali e funzioni di conformità
+6622;5.2 - Business and transactional legal services;5.2 - Servizi legali aziendali e transazionali
+6624;6 - Treasury-related services;6 - Servizi legati al Tesoro
+6627;6.3 - Reporting function, in particular with respect to regulatory liquidity ratios;6.3 - Funzione di rendicontazione, in particolare per quanto riguarda i rapporti di liquidità regolatoria
+6674;r0180 - Critical service liabilities (BRRD art. 44/2/g/ii);r0180 - Responsabilità critiche per il servizio (BRRD art. 44/2/g/ii)
+6730;c014x   - Issuances under non-EU MS jurisdiction/law, excluding intra-group;c014x - Emissioni sotto giurisdizione/legge MS non UE, esclusi l'intragruppo
+6749;Single Contract;Contratto singolo
+6752;No contract regulating the service;Nessun contratto che regolasse il servizio
+6777;Yes (Contractual recognition of bail-in powers);Sì (Riconoscimento contrattuale dei poteri di cauzione)
+6778;No (Contractual recognition of bail-in powers);No (Riconoscimento contrattuale dei poteri di cauzione)
+6779;Not applicable (Contractual recognition of bail-in powers);Non applicabile (Riconoscimento contrattuale dei poteri di cauzione)
+6798;RW corresponding to the protection provider/instrument;RW corrispondente al fornitore/strumento di protezione
+6965;Information Technology expenses. IT outsourcing;Spese per l'Information Technology. Esternalizzazione IT
+6966;Information Technology  expenses. IT expenses other than IT outsourcing expenses;Spese per l'Information Technology. Spese IT diverse dalle spese di outsourcing IT
+6968;Expenses for consulting and professional services;Spese per consulenza e servizi professionali
+6974;Other expenses than IT exp., taxes and duties (other), exp. for consulting / professional services, exp. for advertising / marketing / communication, exp. related to credit risk, litigation exp. not covered by provisions, real estate exp., leasing exp.;Altre spese oltre alle spese IT, tasse e dazi (altre), spese per consulenza / servizi professionali, spese per pubblicità / marketing / comunicazione, spese relative al rischio creditizio, spese per contenzioso non coperte dalle clausorie, spese immobiliari, spese di leasing.
+6975;Corporate Finance services;Servizi di finanza aziendale
+6976;Corporate Finance services. M&A advisory;Servizi di finanza aziendale. Consulenza M&A
+6977;Corporate Finance services. Treasury services;Servizi di finanza aziendale. Servizi di tesoreria
+6978;Corporate Finance services. Services other than M&A advisory, treasury services;Servizi di finanza aziendale. Servizi diversi dalla consulenza su M&A, servizi di tesoreria
+6979;Advisory services excluding asset management and M&A advisory;Servizi di consulenza esclusi asset management e consulenza M&A
+6980;Payment services. Current accounts;Servizi di pagamento. Conti correnti
+6981;Payment services. Credit cards;Servizi di pagamento. Carte di credito
+6982;Payment services. Debit cards and other card payments;Servizi di pagamento. Carte di debito e altri pagamenti con carta
+6983;Payment services. Transfers and other payment orders;Servizi di pagamento. Trasferimenti e altri ordini di pagamento
+6984;Payment services. Other than current accounts, credit cards, debit cards and other card payments, transfers and other payment orders;Servizi di pagamento. A parte conti correnti, carte di credito, carte di debito e altri pagamenti con carta, trasferimenti e altri ordini di pagamento
+6986;Foreign exchange services;Servizi di cambio estero
+6987;Commodities services;Servizi di beni
+6988;Activities other than securities, corporate finance serv., clearing and settlement, asset managem., custody, central admin. services for collective investm., fiduciary transactions, payment serv., customer resources distributed but not managed, structured finance, loan servicing, lending activities / guarantees, FX, commodities;Attività diverse dai titoli, servizi finanziari aziendali, compensazione e liquidazione, gestione patrimoniale, custodia, servizi amministrativi centrali per investimenti collettivi, transazioni fiduciarie, servizi di pagamento, risorse clienti distribuite ma non gestite, finanza strutturata, gestione dei prestiti, attività di prestito/garanzie, valuta, materie prime
+6990;Payment services. Credit cards, debit cards, other cards;Servizi di pagamento. Carte di credito, carte di debito, altre carte
+6992;Activities other than securities, clearing and settlement, asset management, custody, payment services, loan servicing, loan commitments / guarantees received, distribution of products, FX services;Attività diverse dai titoli, compensazione e liquidazione, gestione patrimoniale, custodia, servizi di pagamento, gestione dei prestiti, impegni/garanzie di prestito ricevute, distribuzione di prodotti, servizi FX
+7068;Management body (in its management function), senior management;Organo di gestione (nella sua funzione gestionale), alta direzione
+7069;Management body (in its supervisory function);Organo di gestione (nella sua funzione di supervisione)
+7090;Type of identifier;Tipo di identificatore
+7811;Countries other than country of incorporation of the reporting institution / location of critical function;Paesi diversi dal paese di costituzione dell'istituzione che segnala / sede della funzione critica
+7843;Type of identifier, other than LEI or MFI code;Tipo di identificatore, diverso dal codice LEI o MFI
+7936;H: critical barriers;H: barriere critiche
+7940;H: critical requirements;H: requisiti critici
+7956;Is a currency in which transactions / contracts are denominated;È una valuta in cui le transazioni / contratti sono denominati
+7958;Comment required. Services provided to FMI / representative institution;Commento richiesto. Servizi forniti a FMI / istituzioni rappresentative
+7960;Communication service provider other than FMI proprietary and SWIFT (name);Fornitore di servizi di comunicazione diverso da FMI proprietario e SWIFT (nome)
+7962;Comments required. Name of other service provider enabling access to FMI;Commenti necessari. Nome di un altro fornitore di servizi che consente l'accesso a FMI
+7968;FMI, representative institution, other liquidity provider;FMI, istituzione rappresentativa, altro fornitore di liquidità
+7973;Additional stricter prudential requirements based on Article 124 CRR;Ulteriori requisiti prudenziali più severi basati sull'articolo 124 CRR
+7974;Additional stricter prudential requirements based on Article 164 CRR;Ulteriori requisiti prudenziali più severi basati sull'articolo 164 CRR
+7975;Additional stricter prudential requirements based on Article 458 CRR;Ulteriori requisiti prudenziali più severi basati sull'articolo 458 CRR
+7982;Currency in which the transaction / contract is denominated (string);Valuta in cui la transazione/contratto è denominata (stringa)
+7989;BACS (Bankers' Automated Clearing Services);BACS (Servizi di Compensazione Automatica per i Banchieri)
+8023;Clearing Service Austria (CSA);Servizio di Sgombero Austria (CSA)
+8024;Clearing Service International (CSI);Servizio di Compensazione Internazionale (CSI)
+8055;Faster Payments Service (FPS);Servizio di Pagamenti Più Veloci (FPS)
+8056;FedACH Services;Servizi FedACH
+8057;Fedwire Funds Service;Servizio dei Fondi Fedwire
+8058;Fedwire Securities Services;Fedwire Securities Services
+8179;Communication provider is FMI proprietary;Il provider di comunicazione è proprietario FMI
+8180;Communication provider is SWIFT;Il provider di comunicazione è SWIFT
+8181;Comments required. Other services needed for acces to FMI;Commenti necessari. Altri servizi necessari per accedere a FMI
+8223;Initiated by payment initiation service providers;Avviato dai fornitori di servizi di avvio dei pagamenti
+8254;Payments with cards with a debit function;Pagamenti con carte con funzione di debito
+8255;Payments with cards with a credit or delayed debit function;Pagamenti con carte con funzione di credito o debito differito
+8256;The reporting payment service provider;Il fornitore di servizi di pagamento per la segnalazione
+8257;The payment service user (payer);L'utente del servizio di pagamento (pagatore)
+8258;Others than payment users or service providers;Diverse dagli utenti di pagamento o dai fornitori di servizi
+8259;Payment initiation service provider;Fornitore di servizi di avvio del pagamento
+8292;Comments required.Function of staff;Commenti necessari. Funzione dello staff
+8302;Corporate functions;Funzioni aziendali
+8303;Independent control functions;Funzioni di controllo indipendenti
+8304;Activities other than  Investment banking, Retail banking, Asset management, Corporate functions, Independent control functions;Attività diverse da investment banking, banca al dettaglio, gestione patrimoniale, funzioni societarie, funzioni di controllo indipendente
+8306;Management body (in its supervisory function);Organo di gestione (nella sua funzione di supervisione)
+8307;Management body (in its management function);Organismo di gestione (nella sua funzione gestionale)
+8309;Staff in control functions;Personale nelle funzioni di controllo
+8312;Management body (in its management function), senior management;Organo di gestione (nella sua funzione gestionale), alta direzione
+8313;Staff other than staff in control functions;Personale diverso dal personale nelle funzioni di controllo
+8314;Identified staff other than management body (in its supervisory or management function), senior management;Individuava personale diverso dall'organo di gestione (nelle sue funzioni di supervisione o gestionale), direzione superiore
+8422;Management body (in its management function). Senior management;Organo di gestione (nella sua funzione di gestione). Alta direzione
+8427;Transactions initiated by payment initiation services providers;Transazioni avviate dai fornitori di servizi di avvio di pagamento
+8428;Transactions initiated by payment initiation services providers. Credit transfers;Transazioni avviate dai fornitori di servizi di avvio dei pagamenti. Trasferimenti di crediti
+8429;Transactions initiated by payment initiation services providers. Other payment instruments;Transazioni avviate dai fornitori di servizi di avvio dei pagamenti. Altri strumenti di pagamento
+8431;The payment service user (payee);L'utente del servizio di pagamento (beneficiario)
+8432;The payment service user (account holder);L'utente del servizio di pagamento (titolare del conto)
+8433;The payment service user;L'utente del servizio di pagamento
+8602;Secured by immovable property or residential loan guaranteed by an eligible protection provider;Garantito da beni immobili o prestiti residenziali garantiti da un fornitore di protezione idoneo
+8604;Guaranteed or insured by an official export credit agency or guaranteed or counter-guaranteed by another eligible protection provider as referred to in article 47c(4) CRR;Garantito o assicurato da un'agenzia ufficiale di credito all'esportazione o garantito o controgarantito da un altro fornitore di protezione idoneo come menzionato nell'articolo 47c(4) CRR
+8688;Leverage ratio exempted exposures. Exposure due to banking-type ancillary services of CSD/institutions;Esposizioni esentate dal rapporto di leva. Esposizione dovuta a servizi ausiliari di tipo bancario di CSD/istituzioni
+8689;Leverage ratio exempted exposures. Exposure due to banking-type ancillary services of designated institutions.;Esposizioni esentate dal rapporto di leva. Esposizione dovuta a servizi ausiliari di tipo bancario di istituzioni designate.
+8801;Derivatives & long settlement transactions excluding Contractual Cross Product Netting. Collateral received;Derivati e transazioni di regolamento a lunga durata escluso il netto contrattuale incrociato del prodotto. Garanzie ricevute
+8939;Instruments without legally or contractually mandatory write-down or conversion upon exercise of Article 59 BRRD powers;Strumenti senza deduzione o conversione obbligatoria legalmente o contrattualmente in seguito all'esercizio dei poteri BRRD dell'Articolo 59
+9039;AM Best Europe-Rating Services Ltd. (AMBERS);AM Best Europe-Rating Services Ltd. (AMBERS)
+9045;Moodyâ€™s Investors Service Cyprus Ltd;Moodyâ€™s Investors Service Cyprus Ltd
+9049;Moodyâ€™s Investors Service EspaÃ±a S.A.;Moodyâ€™s Investors Service Espa±a S.A.
+9050;Moodyâ€™s Investors Service Ltd;Moodyâ€™s Investors Service Ltd
+9068;Moodyâ€™s Investors Service (Nordics) ABÂ ;Moodyâ€™s Investors Service (Nordics) ABÂ 
+9069;A.M. Best (EU) Rating Services B.V.Â ;A.M. Best (UE) Servizi di Valutazione B.V.Â 
+9141;Contract recognises write down and conversion powers;Il contratto riconosce i poteri di squalifica e di svalutazione
+9178;Reference date of the impracticability of contractual recognition of bail-in;Data di riferimento sull'impraticabilità del riconoscimento contrattuale della libertà di arresto
+9187;Contracts creating new liabilities;Contratti che creano nuove passività
+9188;Contracts amending existing liabilities;Contratti che modificano le responsabilità esistenti
+9193;Contract/instrument description;Contratto/descrizione dello strumento
+9207;Excluded from  contractual recognition of bail-in powers;Esclusi dal riconoscimento contrattuale dei poteri di cauzione
+9218;Only contracts/instruments;Solo contratti/strumenti
+9220;Both contracts/instruments and categories;Sia contratti/strumenti che categorie
+9246;Operational services that are not critical to the functioning of the entity;Servizi operativi che non sono fondamentali per il funzionamento dell'entità
+9247;Other liability types for impracticability of contractual recognition of bail-in;Altri tipi di responsabilità per impraticabilità del riconoscimento contrattuale della libertà di cauzione
+9293;Transitional requirement. Due to the provision of certain services;Requisito transitorio. A causa della fornitura di alcuni servizi
+9321;Advice to undertakings on capital structure, industrial strategy and related matters and advice and services relating to mergers and the purchase of undertakings;Consulenza alle imprese sulla struttura del capitale, strategia industriale e questioni correlate, nonché consulenza e servizi relativi a fusioni e acquisti di imprese
+9324;Services related to underwriting;Servizi relativi alla sottoscrizione
+9325;Investment services and ancillary activities related with the underlying of derivatives;Servizi di investimento e attività accessorie relative alla base dei derivati
+9615;Other than Hybrid contracts;A parte i contratti ibridi
+9694;Currency in which the transaction / contract is denominated (new);Valuta in cui la transazione/contratto è denominata (nuova)
+9757;Activities other than MB supervisory function, MB management function, dealing on own account, investment advice, portfolio management , operation of MTF/OTF, and independent control functions;Attività diverse dalla funzione di supervisione MB, funzione di gestione MB, gestione di MB, consulenza sugli investimenti, gestione del portafoglio, gestione di MTF/OTF e funzioni di controllo indipendente
+9891;Type of services and activities that the branch is authorised to carry out (MiFID);Tipo di servizi e attività che la filiale è autorizzata a svolgere (MiFID)
+10035;H52.23 - Service activities incidental to air transportation;H52.23 - Attività di servizio accessorie al trasporto aereo
+10044;H52.22 - Service activities incidental to water transportation;H52.22 - Attività di servizio accessorie al trasporto via acqua
+10115;A2.4 - Support services to forestry;A2.4 - Servizi di supporto alla silvicoltura
+10212;C18.1 - Printing and service activities related to printing;C18.1 - Attività di stampa e servizi legate alla stampa
+10215;C18.13 - Pre-press and pre-media services;C18.13 - Servizi pre-stampa e pre-media
+10216;C18.14 - Binding and related services;C18.14 - Servizi vincolanti e correlati
+10425;G46.1 - Wholesale on a fee or contract basis;G46.1 - All'ingrosso su base a pagamento o contratto
+10531;H49.4 - Freight transport by road and removal services;H49.4 - Trasporto merci su strada e servizi di rimozione
+10533;H49.42 - Removal services;H49.42 - Servizi di trasloco
+10540;H52.21 - Service activities incidental to land transportation;H52.21 - Attività di servizio accessorie al trasporto terrestre
+10541;H53.1 - Postal activities under universal service obligation;H53.1 - Attività postali nell'ambito dell'obbligo di servizio universale
+10547;I56.1 - Restaurants and mobile food service activities;I56.1 - Ristoranti e attività di servizio alimentare mobile
+10548;I56.2 - Event catering and other food service activities;I56.2 - Catering per eventi e altre attività di ristorazione
+10550;I56.29 - Other food service activities;I56.29 - Altre attività di ristorazione
+10561;J59.1 - Motion picture, video and television programme activities;J59.1 - Attività cinematografiche, video e programmi televisivi
+10562;J59.11 - Motion picture, video and television programme production activities;J59.11 - Attività di produzione di film, video e programmi televisivi
+10563;J59.12 - Motion picture, video and television programme post-production activities;J59.12 - Attività di post-produzione di film cinematografici, video e programmi televisivi
+10564;J59.13 - Motion picture, video and television programme distribution activities;J59.13 - Attività di distribuzione di film, video e programmi televisivi
+10565;J59.14 - Motion picture projection activities;J59.14 - Attività di proiezione cinematografica
+10576;J62.09 - Other information technology and computer service activities;J62.09 - Altre attività di tecnologia dell'informazione e servizi informatici
+10580;J63.9 - Other information service activities;J63.9 - Altre attività di servizio informativo
+10582;J63.99 - Other information service activities n.e.c.;J63.99 - Altre attività di servizio informativo n.e.c.
+10588;K64.9 - Other financial service activities, except insurance and pension funding;K64.9 - Altre attività di servizi finanziari, ad eccezione di assicurazioni e finanziamenti pensionistici
+10591;K64.99 - Other financial service activities, except insurance and pension funding n.e.c.;K64.99 - Altre attività di servizi finanziari, eccetto assicurazioni e fondi pensionistici n.e.c.
+10597;K66.1 - Activities auxiliary to financial services, except insurance and pension funding;K66.1 - Attività ausiliarie ai servizi finanziari, ad eccezione di assicurazioni e fondi pensionistici
+10599;K66.12 - Security and commodity contracts brokerage;K66.12 - Intermediazione di titoli e contratti di materie prime
+10600;K66.19 - Other activities auxiliary to financial services, except insurance and pension funding;K66.19 - Altre attività ausiliarie ai servizi finanziari, ad eccezione di assicurazioni e fondi pensionistici
+10608;L68.3 - Real estate activities on a fee or contract basis;L68.3 - Attività immobiliari su base a commissione o contratto
+10610;L68.32 - Management of real estate on a fee or contract basis;L68.32 - Gestione immobiliare su base a commissione o contratto
+10654;N79.9 - Other reservation service and related activities;N79.9 - Altri servizi di prenotazione e attività correlate
+10656;N80.2 - Security systems service activities;N80.2 - Attività di servizio dei sistemi di sicurezza
+10663;N81.3 - Landscape service activities;N81.3 - Attività di servizio paesaggistico
+10665;N82.11 - Combined office administrative service activities;N82.11 - Attività di servizio amministrativo combinato
+10669;N82.9 - Business support service activities n.e.c.;N82.9 - Attività di supporto alle imprese n.e.c.
+10672;N82.99 - Other business support service activities n.e.c.;N82.99 - Altre attività di supporto alle imprese n.e.c.
+10675;O84.12 - Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security;O84.12 - Regolamentazione delle attività di fornitura di assistenza sanitaria, istruzione, servizi culturali e altri servizi sociali, esclusa la sicurezza sociale
+10677;O84.2 - Provision of services to the community as a whole;O84.2 - Fornitura di servizi alla comunità nel suo complesso
+10682;O84.25 - Fire service activities;O84.25 - Attività dei vigili del fuoco
+10752;S96.09 - Other personal service activities n.e.c.;S96.09 - Altre attività di servizio personale n.e.c.
+10754;T98.2 - Undifferentiated service-producing activities of private households for own use;T98.2 - Attività di produzione di servizi indifferenziate delle famiglie private per uso personale
+10840;Contractual conditions;Condizioni contrattuali
+10872;Notional amount-weighted average contractual maturity;Scadenza contrattuale media ponderata per importo teorico
+1012400195;Investor, creditor, guarantee provider;Investitore, creditore, fornitore di garanzie
+1012400200;Provider of critical service;Fornitore di servizi critici
+1012400217;Risk factor identifier;Identificatore dei fattori di rischio
+1012400224;Location of critical function (country + region);Posizione della funzione critica (paese + regione)
+1012400228;Critical function (CF to CBL);Funzione critica (CF a CBL)
+1012400229;Critical function (CS to CF);Funzione critica (CS a CF)
+1012400231;Critical function  (FMI to CF);Funzione critica (FMI a CF)
+1012400232;Critical function (IS to LE and CF);Funzione critica (IS a LE e CF)
+1012400265;Main category of item that is the object of the transaction / contract;Categoria principale di articolo oggetto della transazione/contratto
+1012400463;Jurisdiction of incorporation;Giurisdizione di incorporazione
+1012400501;Contract incl. write-down conversion clause (Art. 55 BRRD);Contratto inclusa la clausola di conversione write-down (art. 55 BRRD)
+1012400513;Contract;Contratto
+1012400522;Type of contract;Tipo di contratto
+1012400536;Location of critical function;Posizione della funzione critica
+1012400537;Critical function;Funzione critica
+1012400538;Geographical area for which the function is critical;Area geografica per la quale la funzione è fondamentale
+1012400541;Service provided by FMI;Servizio fornito da FMI
+1012400542;Service provider;Fornitore di servizi
+1012400543;Identifier (Critical services);Identificatore (Servizi critici)
+1012400548;Currency in which the transaction / contract is denominated;Valuta in cui la transazione/contratto è denominata
+1012400552;Identifier (CS,CF,LE,LC,TS );Identificatore (CS,CF,LE,LC,TS)
+1012400590;Specific contract clauses or netting agreements;Clausole contrattuali specifiche o accordi di netting
+1012400646;Critical function (CF to LE);Funzione critica (CF a LE)
+1012400647;Location of critical function (CF to LE);Posizione della funzione critica (CF a LE)
+1012400648;Location of critical function (CF to CBL);Posizione della funzione critica (CF a CBL)
+1012400649;Location of critical function (CS to CF);Posizione della funzione critica (CS a CF)
+1012400671;Location of critical function (FMI to CF);Localizzazione della funzione critica (FMI a CF)
+1012400672;Location of critical function (IS to LE and CF);Posizione della funzione critica (IS a LE e CF)
+1012400801;Type of investment services and activities;Tipo di servizi e attività di investimento
+1012400802;Type of service provided in relation to assets under management;Tipo di servizio fornito in relazione agli asset sotto gestione
+1012400804;Type of service provided in relation to client orders handled;Tipo di servizio fornito in relazione agli ordini dei clienti gestiti
+1012400833;Type of service received;Tipo di servizio ricevuto
+1012400834;Type of service received (Code list);Tipo di servizio ricevuto (Elenco dei codici)
+1012400925;Role in the contract;Ruolo nel contratto
+1012400980;Exclusion of deposits guaranteed by a DGS on contractual basis only;Esclusione dei depositi garantiti da una DGS solo su base contrattuale
+1012401749;account information service providers;Fornitori di servizi di informazioni di conto
+1012401751;crypto-asset service providers;Fornitori di servizi per cripto-asset
+1012401757;data reporting service providers;Fornitori di servizi di reportistica dati
+1012401762;administrator of critical benchmarks;Amministratore dei benchmark critici
+1012401763;crowdfunding service providers;Fornitori di servizi di crowdfunding
+1012401767;Non-financial entity: ICT intra-group service provider;Entità non finanziaria: fornitore di servizi ICT intra-gruppo
+1012401768;Non-financial entity: Other than ICT intra-group service provider;Entità non finanziaria: Diversa dal fornitore di servizi ICT intra-gruppo
+1012401770;Outsourcing;Outsourcing
+1012401776;Amount as defined in Annex IV of ITS on ICT TPP register;Importo come definito nell'Allegato IV degli ITS sul registro ICT TPP
+1012401890;Contractual arrangement reference number between the entity making use of the ICT service(s) provided and the ICT intra-group service provider;Numero di riferimento dell'accordo contrattuale tra l'entità che utilizza il/i servizio/i ICT fornito/i e il fornitore di servizi ICT intra-gruppo
+1012401891;Contractual arrangement reference number between the ICT intra-group service provider and its direct ICT third-party service provider;Numero di riferimento dell'accordo contrattuale tra il fornitore di servizi ICT intra-gruppo e il suo fornitore terzo ICT diretto
+1012401908;Contractual arrangement reference number between the financial entity or, in case of a group, the group subsidiary and the direct ICT third-party service provider;Numero di riferimento dell'accordo contrattuale tra l'entità finanziaria o, nel caso di un gruppo, la controllata del gruppo e il fornitore di servizi ICT terza parte diretta
+1012401910;Lei code of the entity signing the contractual arrangement;Codice lei dell'entità che firma l'accordo contrattuale
+1012401953;Identification code of the ICT third-party service provider;Codice identificativo del fornitore di servizi ICT terza parte
+1012401954;Type of code used in ICT TPP to identify the ICT third-party service provider;Tipo di codice utilizzato in ICT TPP per identificare il fornitore di servizi ICT di terze parti
+1012401990;Type of contractual arrangement;Tipo di accordo contrattuale
+1012401992;ICT project management;Gestione dei progetti ICT
+1012401993;ICT Development;Sviluppo ICT
+1012401994;ICT help desk and first level support;Help desk ICT e supporto di primo livello
+1012401995;ICT security management services;Servizi di gestione della sicurezza ICT
+1012401998;ICT, facilities and hosting services (excluding Cloud services);ICT, strutture e servizi di hosting (esclusi i servizi Cloud)
+1012402005;ICT operation management (including maintenance);Gestione delle operazioni ICT (inclusa la manutenzione)
+1012402006;ICT Consulting;Consulenza ICT
+1012402007;ICT Risk management;Gestione del Rischio ICT
+1012402008;Cloud services: IaaS;Servizi cloud: IaaS
+1012402009;Cloud services: PaaS;Servizi cloud: PaaS
+1012402010;Cloud services: SaaS;Servizi cloud: SaaS
+1012402013;Reason for contract termination;Motivo della risoluzione del contratto
+1012402015;Termination for cause: Provider in breach of applicable law, regulations or contractual provisions;Risoluzione per giusta causa: Fornitore in violazione della legge, dei regolamenti o delle disposizioni contrattuali applicabili
+1012402016;Termination for cause: Identified impediments of the provider capable of altering the supported function;Terminazione per causa: Impedimenti identificati del fornitore in grado di modificare la funzione supportata
+1012402017;Termination for cause: provider's weaknesses regarding the management and security of sensitive data or information;Risoluzione per giusta causa: debolezze del fornitore riguardo alla gestione e sicurezza di dati o informazioni sensibili
+1012402027;Role in the contractual arrangement;Ruolo nell'accordo contrattuale
+1012402028;Provider;Fornitore
+1012402038;Country where a service/activity is provided;Paese in cui viene fornito un servizio/attività
+1012402046;ICT services;ICT services
+1012402052;Level of reliance on the service;Livello di dipendenza dal servizio
+1012402106;Legal services;Servizi legali
+1012402109;Public service (financial supervisor);Servizio pubblico (supervisore finanziario)
+1012402110;Public service (other);Servizio pubblico (altro)
+1012402113;Medical services;Servizi medici
+1012402132;Different targets set for the management and supervisory function of the management body;Obiettivi diversi fissati per la funzione di gestione e supervisione dell'organo di gestione
+1012402133;Targets set only for the management body in the supervisory function (non-executive directors);Obiettivi fissati solo per l'organo di gestione nella funzione di supervisione (amministratori non esecutivi)
+1012402134;Targets set only for the management body in its management function (executive directors);Obiettivi fissati solo per l'organo di gestione nella sua funzione di gestione (direttori esecutivi)
+1012402174;Type of ID code for investor/lender/buyer/provider/insured party/cedent;Tipo di codice identificativo per investitore/finanziatore/acquirente/fornitore/parte assicurata/cedente
+1012402181;Lei code of the entity signing the contractual agreement for providing service(s) to other entity within the scope of consolidation;Codice lei dell'entità che firma l'accordo contrattuale per la fornitura di servizi/i ad altre entità nell'ambito della consolidazione
+1012402195;investments services sector;Settore dei servizi di investimento
+1012402199;2 - CUSIP (the Committee on Uniform Securities Identification Procedures number allocated by the CUSIP Service Bureau for United States and Canadian companies);2 - CUSIP (numero del Committee on Uniform Securities Identification Procedures assegnato dal CUSIP Service Bureau per aziende statunitensi e canadesi)
+1012402205;8 - FIGI (Financial Instrument Global Identifier);8 - FIGI (Identificatore Globale di Strumenti Finanziari)
+1012402291;32 - annuities stemming from non-life insurance contracts and relating to health insurance obligations;32 - rendite derivanti da contratti assicurativi non vita e relative agli obblighi assicurativi sanitari
+1012402292;33 - annuities stemming from non-life insurance contracts and relating to insurance obligations other than health insurance obligations;33 - rendite rendite derivanti da contratti assicurativi non vita e relative a obblighi assicurativi diversi da quelli sanitari
+1012402307;6 - intra-group outsourcing, internal cost sharing or rental agreement;6 - outsourcing intra-gruppo, condivisione interna dei costi o contratti di affitto
+1012402316;Sector of the investor/lender/buyer/provider/insured party/cedent;Settore dell'investitore/finanziatore/acquirente/fornitore/parte assicurata/cedente
+1012402343;Starting date of reinsurance contract;Data di inizio del contratto di riassicurazione
+1012402344;Expiry date of reinsurance contract;Data di scadenza del contratto di riassicurazione
+1012402370;Options allowing the holder to modify the strike price or other terms of the contract before the maturity of the option;Opzioni che consentono al detentore di modificare il prezzo di esercizio o altri termini del contratto prima della scadenza dell'opzione
+1012402382;Type of ICT service;Tipo di servizio ICT
+1012402384;Identification code of the subcontractor;Codice identificativo del subappaltatore
+1012402385;Type of code used to identify the subcontractor ;Tipo di codice utilizzato per identificare il subappaltatore
+1012402391;ID code for investor/lender/buyer/provider/insured party/cedent;Codice ID per investitore/finanziatore/acquirente/fornitore/parte assicurata/cedente
+1012402462;Alternative providers;Fornitori alternativi
+1012402475;Possibility of reintegration of the contracted service;Possibilità di reintegrazione del servizio contrattuale
+1012402476;Impact of service discontinuing;Impatto dell'interruzione del servizio
+1012402477;Impact of function discontinuing;Impact of function discontinuing
+1012402483;Date of last assessment of criticality or importance of the function;Data dell'ultima valutazione della criticità o dell'importanza della funzione
+1012402485;Function is critical or important?;La funzione è fondamentale o importante?
+1012402590;Participation in securities issues and the provision of services relating to such issues ;Partecipazione alle emissioni di titoli e fornitura di servizi relativi a tali questioni
+1012402591;Advisory services;Servizi di consulenza
+1012402598;non-core services (safekeeping and administration in relation to units of collective investment undertakings);Servizi non fondamentali (custodia e amministrazione in relazione a unità di enti di investimento collettivo)
+1012402599;Safe custody services;Servizi di affidamento sicuro
+1012402610;Credit reference services;Servizi di riferimento creditizio
+1012402734;Investment services related to the underlying of the derivatives;Servizi di investimento relativi alla base dei derivati
+1012402748;Provision of crowdfunding services;Fornitura di servizi di crowdfunding
+1012402750;ancillary non-securitisation services;Servizi ausiliari non di cartolarizzazione
+1012402751;ancillary securitisation services;Servizi di cartolarizzazione ausiliari
+1012402768;activity as consolidated tape provider;Attività come fornitore consolidato di nastro
+1012402770;Services enabling cash to be placed on a payment account as well as all the operations required for operating a payment account ;Servizi che consentono di depositare denaro su un conto di pagamento, così come tutte le operazioni necessarie per gestire un conto di pagamento
+1012402771;Services enabling cash withdrawals from a payment account as well as all the operations required for operating a payment account ;Servizi che consentono prelievi di contanti da un conto di pagamento, così come tutte le operazioni necessarie per gestire un conto di pagamento
+1012402772;Execution of payment transactions, including transfers of funds on a payment account with the userâ€™s payment service provider or with another payment service provider;Esecuzione di transazioni di pagamento, inclusi trasferimenti di fondi su un conto di pagamento presso il fornitore di servizi di pagamento dell'utente ™o con un altro fornitore di servizi di pagamento
+1012402773;Execution of payment transactions where the funds are covered by a credit line for a payment service user;Esecuzione di transazioni di pagamento in cui i fondi sono coperti da una linea di credito per un utente del servizio di pagamento
+1012402778;Payment initiation services ;Servizi di avvio del pagamento
+1012402779;Account information services;Servizi informativi di account
+1012402795;providing transfer services for crypto-assets on behalf of clients;Fornire servizi di trasferimento per cripto-asset per conto dei clienti
+1012402826;notary service;Servizio notaile
+1012402827;central maintenance service;Servizio centrale di manutenzione
+1012402828;settlement service;Servizio di insediamento
+1012402830;collateral management services;Servizi di gestione delle garanzie
+1012402831;general collateral management services ;Servizi generali di gestione delle garanzie
+1012402832;Establishing CSD links, providing, maintaining or operating securities accounts in relation to the settlement service, collateral management, other ancillary services;Stabilire collegamenti CSD, fornire, mantenere o gestire conti titoli in relazione al servizio di saldo, gestione delle garanzie e altri servizi accessori
+1012402838;Services related to shareholdersâ€™ registers;Servizi relativi agli azionisti ™—registri
+1012402839;Supporting the processing of corporate actions, including tax, general meetings and information services;Supporto all'elaborazione delle azioni societarie, inclusi fiscali, assemblee generali e servizi di informazione
+1012402840;New issue services, including allocation and management of ISIN codes and similar codes;Nuovi servizi, inclusa l'assegnazione e la gestione dei codici ISIN e codici simili
+1012402844;Providing IT services;Fornitura di servizi IT
+1012402847;""" Payment services involving processing of cash and foreign exchange transactions, within the meaning of point 4 of Annex I to Directive 2013/36/EU""";"""Servizi di pagamento che comportano l'elaborazione di transazioni in contanti e valuta estera, ai sensi del punto 4 dell'Allegato I della Direttiva 2013/36/UE"""
+1012402849;Any other NCA-permitted non-banking-type ancillary services not specified in Annex of Regulation (EU) No 909/2014 (CSDR) - Section B;Qualsiasi altro servizio ausiliario non bancario consentito dalla NCA non specificato nell'Allegato del Regolamento (UE) n. 909/2014 (CSDR) - Sezione B
+1012402850;Any other NCA-permitted Banking-type ancillary services not specified in Annex of Regulation (EU) No 909/2014 (CSDR) - Section C;Qualsiasi altro servizio ausiliario bancario consentito dalla NCA non specificato nell'Allegato del Regolamento (UE) n. 909/2014 (CSDR) - Sezione C
+1012402861;legal and fund management accounting services;Servizi legali e di contabilità di gestione dei fondi
+1012402878;contract settlements (including certificate dispatch);Regolamenti contrattuali (incluso il dispatch dei certificati)
+1012402881;services necessary to meet the fiduciary duties of the AIFM;servizi necessari per adempiere ai doveri fiduciari dell'AIFM
+1012402888;Ancillary services;Servizi ausiliari
+1012402948;Consumer goods and services, transportation and storage, administrative and support service activities;Beni e servizi di consumo, trasporti e stoccaggio, attività amministrative e di supporto
+1012403010;Consumer goods and services, transportation and storage, administrative and support service activities, healthcare, utilities;Beni e servizi di consumo, trasporti e stoccaggio, attività amministrative e di servizio, assistenza sanitaria, utenze
+1012403126;Contractual arrangement reference number;Numero di riferimento dell'accordo contrattuale
+1012403225;Country the law of which governs the contract;Paese la cui legge regola il contratto
+1012403257;Name of operational/business functions of an entity;Nome delle funzioni operative/aziendali di un'entità
+1012403258;Identifier of the operational/business function of an entity;Identificatore della funzione operativa/aziendale di un'entità
+1012403261;Name of the investor/lender/buyer/provider/insured party/cedent;Nome dell'investitore/finanziatore/acquirente/fornitore/parte assicurata/cedente
+1012403278;Recovery time objective of the function;Obiettivo del tempo di recupero della funzione
+1012403279;Recovery point objective of the function;Punto di recupero obiettivo della funzione
+1012403283;Currency in which the transaction / contract is denominated (new);Valuta in cui la transazione/contratto è denominata (nuova)
+1012403287;Alternative providers;Fornitori alternativi
+1012403288;Function is critical or important?;La funzione è fondamentale o importante?
+1012403289;Type of contractual arrangement;Tipo di accordo contrattuale
+1012403294;Possibility of reintegration of the contracted service;Possibilità di reintegrazione del servizio contrattuale
+1012403295;Impact of service discontinuing;Impatto dell'interruzione del servizio
+1012403296;Impact of function discontinuing;Funzione di supporto
+1012403314;supporting function;supporting function
+1012403448;Transfer restrictions or denomination in non-convertible currencies ;Restrizioni di trasferimento o denominazione in valute non convertibili
+1012404262;Meeting requirements of additional outflows for other products and services;Soddisfare le esigenze di ulteriori deflussi per altri prodotti e servizi
+1012404484;Specific contract clauses;Clausole contrattuali specifiche
+1012404488;Contractual maturity of financial instrument or product;Scadenza contrattuale di uno strumento o prodotto finanziario
+1012404604;Ancillary services undertaking ;Attività di servizi accessori
+1012404624;Correspondent banking or prime brokerage services;Servizi di corrispondenza bancaria o prime brokerage
+1012404626;Prime brokerage services;Servizi di intermediazione prime
+1012404627;Other than correspondent banking or prime brokerage services;A parte i servizi di corrispondenza bancaria o prime brokerage
+1012404696;Time for withdrawal under contractual provisions;Tempo per il ritiro secondo le disposizioni contrattuali
+1012404833;FMI, representative institution, other liquidity provider;FMI, istituzione rappresentativa, altro fornitore di liquidità
+1012404947;Accounting portfolios for financial assets at fair value or strict LOCOM;Portafogli contabili per attività finanziarie al fair value o a LOCOM rigoroso
+1012404983;FMI services;Servizi FMI
+1012405002;Communication service provider other than FMI proprietary and SWIFT;Fornitore di servizi di comunicazione diverso da FMI proprietario e SWIFT
+1012405008;Economic function;Funzione economica
+1012405012;Other services needed for access to FMI;Altri servizi necessari per l'accesso a FMI
+1012405013;Services provided to FMI / representative institution;Servizi forniti a FMI / istituzioni rappresentative
+1012405015;Type of investment services and activities;Tipo di servizi e attività di investimento
+1012405018;Name of other service provider enabling access to FMI;Nome di un altro fornitore di servizi che consente l'accesso a FMI
+1012405049;Represents a critical function;Rappresenta una funzione critica
+1012405058;Is a currency in which transactions / contracts are denominated;È una valuta in cui le transazioni / contratti sono denominati
+1012405060;Communication provider is FMI proprietary;Il provider di comunicazione è proprietario FMI
+1012405061;Communication provider is SWIFT;Il provider di comunicazione è SWIFT
+1012405082;Numeric indicator of criticality assessment of economic functions;Valutazione numerica dell'indicatore di criticità delle funzioni economiche
+1012405110;Currency in which the transaction / contract is denominated (string);Valuta in cui la transazione/contratto è denominata (stringa)
+1012405113;Contract recognises write down and conversion powers;Il contratto riconosce i poteri di squalifica e di svalutazione
+1012405118;Contract/instrument description;Contratto/descrizione dello strumento
+1012405147;Reference date of the impracticability of contractual recognition of bail-in;Data di riferimento sull'impraticabilità del riconoscimento contrattuale della libertà di arresto
+1012405152;Identifier of the securitisation;Identificatore della cartolarizzazione
+1012405154;Contract identifier;Identificatore contrattuale
+1012405155;Identifier of the security;Identificatore del titolo
+1012405239;Type of contract;Tipo di contratto
+1012405255;Financial instrument that is the object of the transaction / contract;Strumento finanziario oggetto della transazione/contratto
+1012405335;Restricted/Unrestricted use;Uso Limitato/Non Limitato
+1012405754;Specific contract clauses;Clausole contrattuali specifiche
+1012405757;Other expenses than IT expenses, Taxes and duties (other than income taxes), consulting and professional services,  advertising, marketing and communication, credit risk, litigation not covered by provisions, real estate , leasing;Altre spese oltre alle spese IT, tasse e dazi (tranne le imposte sul reddito), consulenza e servizi professionali, pubblicità, marketing e comunicazione, rischio creditizio, contenziosi non coperti dalle clausole, immobili, locazioni
+1012405814;Daily operational functioning;Funzionamento operativo quotidiano
+1012405823;IT outsourcing;Esternalizzazione IT
+1012405824;Information Technology other than IT outsourcing expenses;Tecnologie dell'Informazione, diverse dalle spese di outsourcing IT
+1012405826;Consulting and professional services;Consulenza e servizi professionali
+1012405837;Operational services that are not critical to the functioning of the entity;Servizi operativi che non sono fondamentali per il funzionamento dell'entità
+1012405849;Not applicable/All contracts;Non applicabile/Tutti i contratti
+1012405863;Legal coverage (excluding contractual coverage);Copertura legale (esclusa copertura contrattuale)
+1012405864;Additional contractual coverage;Copertura contrattuale aggiuntiva
+1012405868;Reinsurance and insurance contracts;Contratti di riassicurazione e assicurazione
+1012405869;Contracts creating new liabilities;Contratti che creano nuove passività
+1012405870;Contracts amending existing liabilities;Contratti che modificano le responsabilità esistenti
+1012405877;Application of stricter requirements by institutions;Applicazione di requisiti più severi da parte delle istituzioni
+1012405940;Payment initiation services provider;Fornitore di servizi di avvio di pagamento
+1012405972;Not including the contractual recognition of bail-in clause;Escludendo il riconoscimento contrattuale della clausola di cail-in
+1012406071;Debt securities issued other than certificates of deposits, asset-backed securities, covered bonds, hybrid contracts;Titoli di debito emessi diversi dai certificati di deposito, titoli garantiti da beni, obbligazioni coperte, contratti ibridi
+1012406130;Unrestricted use;Uso illimitato
+1012406211;Nâ€Œot meeting the requirement of legally or contractually mandatory write-down or conversion upon exercise of Article 59 BRRD powers;Non soddisfare il requisito di riduzione o conversione obbligatoria legalmente o contrattualmente all'esercizio dei poteri dell'articolo 59 BRRD
+1012406237;Transitional requirement for investment firms that are not authorised to provide certain servicesÂ ;Requisito transitorio per le società di investimento non autorizzate a fornire determinati servizi 
+1012406249;Other liability types for impracticability of contractual recognition of bail-in;Altri tipi di responsabilità per impraticabilità del riconoscimento contrattuale della libertà di cauzione
+1012406280;European banking union as a single jurisdiction;Unione bancaria europea come unica giurisdizione
+1012406308;Other expenses considered in the Services Component (SC);Altre spese considerate nella Componente dei Servizi (SC)
+1012406319;Additional stricter prudential requirements based on Article 459 CRR;Ulteriori requisiti prudenziali più severi basati sull'articolo 459 CRR
+1012406320;Additional stricter prudential requirements based on Article 110 CRD;Ulteriori requisiti prudenziali più severi basati sull'Articolo 110 CRD
+1012406334;Services component (SC);Componente dei servizi (SC)
+1012406409;Current service cost;Costo attuale del servizio
+1012406412;Past service cost;Costi di servizio passati
+1012406420;Defined benefit obligations other than Current and past service cost, Interest cost, Contributions paid by plan participants, Actuarial gains and losses, Foreign currency translation, Benefits paid, Business combinations or divestiture;Obblighi a benefici definiti diversi dai costi di servizio attuali e passati, costi degli interessi, contributi pagati dai partecipanti ai piani, guadagni e perdite attuariali, traduzione in valuta estera, benefici pagati, combinazioni o dismissioni di imprese
+1012406432;Accounting item that is the object of the transaction / contract;Voce contabile oggetto della transazione / contratto
+1012406590;Monetary amount of criticality assessment of economic functions;Valutazione della quantità monetaria di criticità delle funzioni economiche
+1012406688;Accounting item and financial instruments that is the object of the transaction / contract;Voce contabile e strumenti finanziari oggetto della transazione/contratto
+1012406690;Financial instruments and Positions in the instrument that is the object of the transaction / contract;Strumenti finanziari e posizioni nello strumento oggetto della transazione/contratto
+1012406832;Unique identifier for the securitisation;Identificatore univoco per la cartolarizzazione
+1012407807;Type of code to identify the ICT third-party service provider;Tipo di codice per identificare il fornitore di servizi ICT di terze parti
+1012407808;Type of code used to identify the subcontractor;Tipo di codice utilizzato per identificare il subappaltatore
+1012407812;Additional identification code of ICT third-party service provider;Codice identificativo aggiuntivo del fornitore di servizi ICT terza parte
+1012407836;Country of provision of the ICT services;Paese di fornitura dei servizi ICT
